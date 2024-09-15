@@ -1,0 +1,362 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* container */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row, .d-flex{
+    display: flex;
+    gap: 20px;
+}
+.tab{
+    font-size: 16px;
+    color: #181E44;
+    font-weight: 500;
+    background-color:cadetblue;
+    border-bottom: 1px solid #E5E5E9;
+    padding: 13px 20px;
+}
+.tab-btn{
+    background-color: #1A3871;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    padding: 13px 27px;
+    justify-content: end;
+}
+head{
+    display: flex;
+    align-items: end;
+    justify-content:end ;
+
+}
+.mg{
+    margin-left:  950px;
+}
+.wt{
+    color: #fff;
+}
+header{
+    background-color: transparent;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    
+}
+.col-md-12{
+    width: 100%;
+}
+.col-md-6{
+    width: 50%;
+}
+.col-md-5{
+    width: 20%;
+}
+.hd{
+    display: flex;
+    position: relative;
+    background-color:floralwhite;
+    height: 0 auto;
+    align-items: center;
+    padding: 15px 0;
+}
+.fl{
+    background-color: floralwhite;
+    padding: 15px 0;
+}
+.block{ 
+    display: flex;
+    padding-top: 20px;
+
+}
+.r{
+    color: #EB4343;
+}
+.H{
+    color:#242424;
+}
+.H:hover{
+    color: #EB4343;
+}
+ul{
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    padding: 15px 0;
+    vertical-align: middle;
+}
+.hh{
+    height: 20px;
+}
+,hc{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 26px;
+}
+.f{
+    font-size: 17px;
+    color: #181E44;
+}
+.f-20{
+    font-size: 20px;
+    color: #fff;
+}
+.f-16{
+    font-size: 13px;
+    white-space: nowrap;
+}
+.content{
+    width: 100%;
+}
+section{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/594/488/small_2x/ai-generated-dental-clinic-advertisment-background-with-copy-space-free-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 700px;
+}
+.sec-box{
+    font-size: 22px;
+    font-style: italic;
+    color: #fff;
+    display: block;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: #EB4343;
+    color: #fff;
+    cursor: grab;
+    padding:15px 41px;
+    border: none;
+    
+}
+.small-box{
+    background-color: #09A0BA;
+    padding: 40px;
+    text-align: center;
+}
+.small{
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
+.service{
+    padding-top: 85px;
+    padding-bottom: 90px;
+
+}
+.mg1{
+    margin-bottom: 40px;
+}
+.tt{
+    font-size: 32px;
+    color: #181E44;
+    text-align: center;
+    font-weight: 600;
+}
+.ff{
+    font-size: 16px;
+    color: #797979;
+    text-align: center;
+    margin-top: 7px;
+}
+.dd{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+}
+.dd1{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 85px;
+}
+.dd2{
+    font-size: 18px;
+    color: #181E44;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.dda{
+    background-image:url(http://adhishreedentalclinic.com/images/icons/dental-1-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+    margin-top: 85px;
+}
+.ddb{
+    background-image:url(http://adhishreedentalclinic.com/images/icons/dental-1-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+
+}
+.ddc{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+
+
+}
+.ddd{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+}
+.dde{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+}
+.ddf{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+}
+.ddg{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+}
+.ddh{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+
+}
+.ddi{
+    background-image: url(http://adhishreedentalclinic.com/images/icons/dental-1-10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    width: 100%;
+    background-color: #e4edf4;
+}
+.ser{
+    color: #181E44;
+    font-size: 20px;
+    border-bottom: 1px solid #181E44;
+    margin-top: 20px;
+}
+.t{
+    text-align: center;
+    margin-top: 50px;
+}
+.dr-profile{
+    background-color: #1A3871;
+    position: relative;
+    height: 700px;
+}
+.mgg{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.mgg1{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.f-d{
+    font-size: 18px;
+    color: #fff;
+    font-weight:600;
+}
+.o{
+    font-size: 16px;
+    color: #fff;
+    opacity:.7;
+    font-weight:;
+}
+.girl{
+    background-image: url(http://adhishreedentalclinic.com/images/background/cta-bg-1-1.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size: cover;
+    width: 100%;
+    height:535px;
+}
+.f-25{
+    font-size:25px ;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.f-45{
+    font-size:45px ;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.art{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px;
+    height: 600px;
+    background-image: url(http://adhishreedentalclinic.com/images/resources/about-dots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    transform: scale(0.8);
+    margin-left: auto;
+}
+.arv{
+    
+}
+.ig{
+    border-radius: 50%;
+    position: relative;
+}
+.f-32{
+    font-size: 32px;
+    font-weight: 600;
+    color: #181E44;
+    margin-top: 30px;
+}
+.f-26{
+    font-size: 26px;
+    color: #797979;
+}
